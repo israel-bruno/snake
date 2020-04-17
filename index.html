@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>      
+        <title> Cobrinha </title>     
+        <!-- inclui o style.css que contem as classes dos elementos do HTLM -->
+        <header>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </header>
+     <!-- inclui o script.js (as funçoes do jogo em si) -->
+    <script src="script.js"> </script>
+</head>
+<!-- ao pressionar as teclas inicia  a função comnandos  -->
+<body onkeydown=" comandos(event)">
+	<!-- borda da pagina (invisivel), feita para determinar as coordenadas caso o tamanho da janela seja alterado  -->
+	<div class="borda" id="borda"></div> 
+	<!-- divs das partes da cobrinha e da comida -->
+	<div class="cobrinha" id="cabeca"></div>
+</body>
+</html>
+
